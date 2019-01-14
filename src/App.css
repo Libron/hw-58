@@ -17,73 +17,7 @@ body{
   clear: both;
   display: table;
 }
-header{
-  width: 100%;
-  height: 97px;
-  background-color: #2e3b4e;
-}
-.logo{
-  float: left;
-  margin-top: 33px;
-}
-.main-menu {
-  text-align: right;
-}
-.main-menu a{
-  display: inline-block;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 13px;
-  color: #fff;
-  margin: 0 20px;
-  line-height: 24px;
-}
-.logo, .main-menu{
-  line-height: 97px;
-}
-.articles{
-  background: #fff;
-  margin-top: 85px;
-  margin-bottom: 85px;
-}
-.item{
-  height: 394px;
-  display: flex;
-  justify-content: space-between;
-}
-.ar_text{
-  width: 400px;
-  text-align: center;
-  box-sizing: border-box;
-  line-height: 26px;
-  padding: 57px 40px;
-  color: #656e74;
-}
-.ar_text span{
-  text-transform: uppercase;
-  line-height: 22px;
-  color: #fd634e;
-}
-.ar_text h2{
-  text-transform: uppercase;
-  font-size: 35px;
-  line-height: 30px;
-  font-weight: normal;
-  color: #a2ca28;
-  background: url(../images/drop.png) no-repeat;
-  background-position: bottom center;
-  padding-bottom: 47px;
-  margin-bottom: 26px;
-  margin-top: 10px;
-}
-.ar_text a{
-  font-size: 20px;
-  line-height: 26px;
-  color: #a2ca28;
-}
-.item:nth-child(2n){
-  flex-direction: row-reverse;
-}
+
 .services{
   display: flex;
   color: #fff;
@@ -111,21 +45,21 @@ header{
 .box-1::before{
   content: "";
   display: table;
-  background: url(../images/ic-sprite.png) 0 0 no-repeat;
+  background: url(./assets/ic-sprite.png) 0 0 no-repeat;
   width: 50px;
   height: 49px;
 }
 .box-2::before{
   content: "";
   display: table;
-  background: url(../images/ic-sprite.png) 0 -50px no-repeat;
+  background: url(./assets/ic-sprite.png) 0 -50px no-repeat;
   width: 50px;
   height: 50px;
 }
 .box-3::before{
   content: "";
   display: table;
-  background: url(../images/ic-sprite.png) 0 -100px no-repeat;
+  background: url(./assets/ic-sprite.png) 0 -100px no-repeat;
   width: 50px;
   height: 50px;
 }
