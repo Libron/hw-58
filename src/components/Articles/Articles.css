@@ -1,0 +1,43 @@
+.articles{
+    background: #fff;
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+.item{
+    height: 394px;
+    display: flex;
+    justify-content: space-between;
+}
+.ar_text{
+    width: 400px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 26px;
+    padding: 57px 40px;
+    color: #656e74;
+}
+.ar_text span{
+    text-transform: uppercase;
+    line-height: 22px;
+    color: #fd634e;
+}
+.ar_text h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 30px;
+    font-weight: normal;
+    color: #a2ca28;
+    background: url(../../assets/drop.png) no-repeat;
+    background-position: bottom center;
+    padding-bottom: 47px;
+    margin-bottom: 26px;
+    margin-top: 10px;
+}
+.ar_text a{
+    font-size: 20px;
+    line-height: 26px;
+    color: #a2ca28;
+}
+.item:nth-child(2n){
+    flex-direction: row-reverse;
+}
