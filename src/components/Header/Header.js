@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import Menu from "../../UI/Menu";
+import Menu from "../../UI/Menu/Menu";
 import logo from "../../assets/logo.png";
 
 const Header = () => {
@@ -10,7 +10,8 @@ const Header = () => {
                 <img className="logo" src={logo} width="151px" height="47px" alt="logo" />
                 <Menu
                     class={'main-menu'}
-                    list={['About', 'How It Works', 'Services', 'FAQ', 'Contact']}/>
+                    list={['Home', 'About', 'Service', 'Contact']}
+                />
             </div>
         </header>
     );
