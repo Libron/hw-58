@@ -1,0 +1,31 @@
+.Alert {
+    background: #fff;
+    padding: 25px 55px 25px 15px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.warning {
+    background: orangered;
+}
+
+.success {
+    background: green;
+}
+
+.primary {
+    background: blue;
+}
+
+.danger {
+    background: red;
+}
+
+.btn-dismiss {
+    position: absolute;
+    top: 23px;
+    right: 15px;
+    border: none;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
